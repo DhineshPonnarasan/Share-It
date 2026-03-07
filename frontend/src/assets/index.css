@@ -28,22 +28,18 @@
 }
 
 @layer components {
-  /* Define a primary button style (for main actions) */
   .btn-primary {
     @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors disabled:opacity-50;
   }
 
-  /* Define a secondary/neutral button style */
   .btn-secondary {
     @apply px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors disabled:opacity-50;
   }
 
-  /* Define a tertiary/ghost button style (for less prominent actions) */
   .btn-ghost {
-     @apply px-3 py-1 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors disabled:opacity-50;
+    @apply px-3 py-1 bg-gray-700 hover:bg-gray-600 text-white rounded-lg transition-colors disabled:opacity-50;
   }
 
-  /* Define a consistent input field style */
   .input-field {
     @apply w-full p-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
   }

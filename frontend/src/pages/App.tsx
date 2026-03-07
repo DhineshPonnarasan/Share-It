@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import UploadShare from './components/UploadShare';
-import RecentShares from './components/RecentShares';
-import Analytics from './components/Analytics';
-import Settings from './components/Settings';
+import { useState } from 'react';
+import Sidebar from '../components/Sidebar';
+import UploadShare from '../components/UploadShare';
+import RecentShares from '../components/RecentShares';
+import Analytics from '../components/Analytics';
+import Settings from '../components/Settings';
 
 type ActivePage = 'upload' | 'recent' | 'analytics' | 'settings';
 
